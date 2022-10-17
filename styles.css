@@ -1,0 +1,58 @@
+body {
+    size: 1rem;
+    background-color: black;
+    color: whitesmokes;
+}
+
+.wrapper {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 5rem;
+    margin-top: 10rem;
+}
+
+.text {
+    padding: 2rem;
+    align-content: center;
+    color: red;
+    font-size: medium;
+    border-radius: 1rem;
+    background-color: bisque;
+}
+
+.title {
+    padding: 2rem;
+    align-content: center;
+    font-size: x-large;
+    color: red;
+    background-color: bisque;
+}
+
+.handler {
+    margin-top: 2rem;
+    margin: 5rem;
+    padding: 2rem;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.portal {
+    margin: auto;
+    align-content: center;
+    background-color: aqua;
+}
+
+.group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
